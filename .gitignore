@@ -1,0 +1,48 @@
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Output and intermediate results
+
+
+data
+*.rttm
+*.wav
+*.mp4
+*.srt
+*.jsonl
+*.vtt
+
+# Input/output data
+
+
+images/
+*.zip
+
+# Model files
+
+*.pt
+*.pth
+
+# Secrets and API keys (make sure to exclude hardcoded tokens!)
+*.env
+*.secret
+*.token
+
+# IDE and system files
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
+data/*.json
